@@ -166,7 +166,10 @@ body {
 
 .showcase-box:hover #overlay-showcase {
   opacity: 1;
-  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
 #coming-soon {
